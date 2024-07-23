@@ -1,0 +1,32 @@
+[
+    {
+        "kode" : "1",
+        "status_keluarga" : "Keluarga Ada",
+        "keterangan" : "Keluarga masih ada"
+    },
+    {
+        "kode": "2",
+        "status_keluarga": "Keluarga Pindah",
+        "keterangan": "Keluarga sudah pindah"
+    },
+    {
+        "kode": "3",
+        "status_keluarga": "Keluarga Seluruh Anggota Keluarga Meninggal Dunia",
+        "keterangan": "Keluarga seluruh anggota keluarga meninggal dunia"
+    },
+    {
+        "kode": "4",
+        "status_keluarga": "Keluarga tidak Ditemukan",
+        "keterangan": "Keluarga tidak ditemukan"
+    },
+    {
+        "kode": "5",
+        "status_keluarga": "Keluarga Bercerai",
+        "keterangan": "Keluarga bercerai"
+    },
+    {
+        "kode": "6",
+        "status_keluarga": "Keluarga Baru",
+        "keterangan": "Keluarga baru"
+    }
+]

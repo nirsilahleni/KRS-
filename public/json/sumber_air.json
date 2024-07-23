@@ -1,0 +1,46 @@
+[
+    {
+        "nama" : "Air kemasan/isi ulang",
+        "layak_konsumsi" : "ya"
+    },
+    {
+        "nama": "Ledeng/PDAM",
+        "layak_konsumsi": "ya"
+    },
+    {
+        "nama": "Sumur bor/pompa",
+        "layak_konsumsi": "ya"
+    },
+    {
+        "nama": "Sumuer terlindung",
+        "layak_konsumsi": "ya"
+    },
+    {
+        "nama": "Sumur tak terlindung",
+        "layak_konsumsi": "tidak"
+    },
+    {
+        "nama": "Mata air terlindung",
+        "layak_konsumsi": "ya"
+    },
+    {
+        "nama": "Mata air tak terlindung",
+        "layak_konsumsi": "tidak"
+    },
+    {
+        "nama": "Air permukaan (sungai/danau/waduk/kolam/irigasi)",
+        "layak_konsumsi": "tidak"
+    },
+    {
+        "nama": "Air hujan",
+        "layak_konsumsi": "tidak"
+    },
+    {
+        "nama": "Lain-lain",
+        "layak_konsumsi": "tidak"
+    },
+    {
+        "nama" : "Belum diketahui",
+        "layak_konsumsi" : "ya"
+    }
+]

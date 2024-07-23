@@ -1,0 +1,1 @@
+<img src="{{ asset('assets/images/svgs/file.svg') }}" width="40px" class="me-2"> <span>{{ $data->nama }}</span>

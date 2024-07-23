@@ -1,0 +1,77 @@
+:root{
+    --bluee : #387ADF;
+    --orange : #FBA834;
+}
+
+/* ornamen shape */
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
+.shape:first-child{
+    left: 85%;
+    top: 40%;
+}
+.shape:last-child{
+    left: -5%;
+    bottom: -100%;
+}
+
+/* artikel */
+.article{
+    background-color: rgba(242, 242, 242, 0.479);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+}
+.blog small{
+    font-size: 11px;
+    color: #252525;
+    margin-right: 0.5rem;
+}
+.blog small a{
+    color: #797979;
+}
+.blog small:after{
+    content: "/";
+    margin-left: 0.5rem;
+}
+.blog small:last-child:after{
+    content: "";
+}
+.icon .fa{
+    padding-left: 10px;
+    color: var(--orange);
+}
+
+/* widget kategori */
+.kategori{
+    list-style-type: none;
+}
+.kategori:hover{
+    background-color: #ffdfb370;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.kategori a{
+    color: #797979;
+}
+.kategori a:hover{
+    color: var(--orange);
+}
+
+/* detail berita */
+.breadcrumb-item a{
+    color: #797979;
+}
+.orange a{
+    background-color: var(--orange);
+    padding: 0 1rem;
+    color: #fff;
+    border-radius: 5px;
+}
+.fw-bolder{
+    font-weight: 600;
+}

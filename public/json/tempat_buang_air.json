@@ -1,0 +1,22 @@
+[
+    {
+        "nama" : "Jamban milik sendiri dengan leher angsa dan tangki septik/IPAL",
+        "layak" : "ya"
+    },
+    {
+        "nama": "Jamban MCK komunal dengan dengan leher angsa dan tangki septik/IPAL",
+        "layak": "ya"
+    },
+    {
+        "nama" : "Lainnya",
+        "layak" : "tidak"
+    },
+    {
+        "nama" : "Tidak ada",
+        "layak" : "tidak"
+    },
+    {
+        "nama" : "Belum diketahui",
+        "layak" : "ya"
+    }
+]

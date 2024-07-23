@@ -1,0 +1,38 @@
+[
+    {
+        "kode" : "ST",
+        "interpretasi" : "Sangat Tinggi",
+        "keterangan" : "Sangat Tinggi",
+        "nilai_minimal" : 2.01,
+        "nilai_maksimal" : 2.50
+    },
+    {
+        "kode": "T",
+        "interpretasi": "Tinggi",
+        "keterangan": "Tinggi",
+        "nilai_minimal": 1.51,
+        "nilai_maksimal": 2.00
+
+    },
+    {
+        "kode": "N",
+        "interpretasi": "Normal",
+        "keterangan": "Normal",
+        "nilai_minimal": 1.01,
+        "nilai_maksimal": 1.50
+    },
+    {
+        "kode": "P",
+        "interpretasi": "Pendek",
+        "keterangan": "Pendek",
+        "nilai_minimal": 0.51,
+        "nilai_maksimal": 1.00
+    },
+    {
+        "kode": "SP",
+        "interpretasi": "Sangat Pendek",
+        "keterangan": "Sangat Pendek",
+        "nilai_minimal": 0,
+        "nilai_maksimal": 0.5
+    }
+]

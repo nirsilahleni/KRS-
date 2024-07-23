@@ -1,0 +1,27 @@
+[
+    {
+        "kode" : "0",
+        "nama_jenjang" : "Tidak Tamat SD",
+        "keterangan" : "Tidak Tamat SD"
+    },
+    {
+        "kode" : "1",
+        "nama_jenjang" : "Tamat SD",
+        "keterangan" : "Tamat SD"
+    },
+    {
+        "kode": "2",
+        "nama_jenjang": "Tamat SMP",
+        "keterangan": "Tamat SMP"
+    },
+    {
+        "kode": "3",
+        "nama_jenjang": "Tamat SMA",
+        "keterangan": "Tamat SMA"
+    },
+    {
+        "kode": "4",
+        "nama_jenjang": "D3/D4/Sarjana",
+        "keterangan": "D3/D4/Sarjana"
+    }
+]

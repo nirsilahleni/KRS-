@@ -1,0 +1,342 @@
+[
+    {
+        "name": "Dashboard",
+        "module": "dashboard",
+        "slug": "admin-dashboard",
+        "icon": "fal fa-house",
+        "url": "\/dashboard",
+        "order": 0,
+        "childrens": []
+    },
+    {
+        "name": "Data Master",
+        "module": "data-master",
+        "slug": "data-master",
+        "icon": "fal fa-database",
+        "url": "",
+        "order": 1,
+        "childrens": [
+            {
+                "name": "Data Kecamatan",
+                "module": "data-master.kecamatan",
+                "slug": "data-master-kecamatan",
+                "icon": "fal fa-map-marker-alt",
+                "url": "\/master\/kecamatan",
+                "order": 0,
+                "childrens": []
+            },
+            {
+                "name": "Data Kelurahan",
+                "module": "data-master.kelurahan",
+                "slug": "data-master-Kelurahan",
+                "icon": "fal fa-map-marker-alt",
+                "url": "\/master\/kelurahan",
+                "order": 1,
+                "childrens": []
+            },
+            {
+                "name": "Data Posyandu",
+                "module": "data-master.posyandu",
+                "slug": "data-master-posyandu",
+                "icon": "fal fa-map-marker-alt",
+                "url": "\/master\/posyandu",
+                "order": 2,
+                "childrens": []
+            },
+            {
+                "name": "Data kader",
+                "module": "data-master.kader",
+                "slug": "data-master-kader",
+                "icon": "fal fa-users",
+                "url": "\/master\/kader",
+                "order": 3,
+                "childrens": []
+            },
+            {
+                "name": "Jenjang Pendidikan",
+                "module": "data-master.pendidikan",
+                "slug": "data-master-pendidikan",
+                "icon": "fal fa-graduation-cap",
+                "url": "\/master\/pendidikan",
+                "order": 4,
+                "childrens": []
+            },
+            {
+                "name": "Agama",
+                "module": "data-master.agama",
+                "slug": "data-master-agama",
+                "icon": "fal fa-pray",
+                "url": "\/master\/agama",
+                "order": 5,
+                "childrens": []
+            },
+            {
+                "name": "Status Keluarga",
+                "module": "data-master.keluarga",
+                "slug": "data-master-keluarga",
+                "icon": "fal fa-clipboard",
+                "url": "\/master\/keluarga",
+                "order": 6,
+                "childrens": []
+            },
+            {
+                "name": "Interpretasi",
+                "module": "data-master.interpretasi",
+                "slug": "data-master-interpretasi",
+                "icon": "fal fa-book",
+                "url": "\/master\/interpretasi",
+                "order": 7,
+                "childrens": []
+            },
+            {
+                "name": "Periode",
+                "module": "data-master.periode",
+                "slug": "data-master-periode",
+                "icon": "fal fa-balance-scale",
+                "url": "\/master\/periode",
+                "order": 8,
+                "childrens": []
+            }
+        ]
+    },
+    {
+        "name": "KRS",
+        "module": "krs",
+        "slug": "krs",
+        "icon": "fal fa-list",
+        "url": null,
+        "order": 2,
+        "childrens": [
+            {
+                "name": "Data Kepala Keluarga",
+                "module": "krs.data-keluarga",
+                "slug": "krs-data-keluarga",
+                "icon": "fal fa-id-badge",
+                "url": "\/krs\/keluarga",
+                "order": 0,
+                "childrens": []
+            },
+            {
+                "name": "Data Balita",
+                "module": "krs.data-balita",
+                "slug": "krs-data-balita",
+                "icon": "fal fa-child",
+                "url": "\/krs\/balita",
+                "order": 1,
+                "childrens": []
+            },
+            {
+                "name": "Pendataan",
+                "module": "krs.pendataan",
+                "slug": "krs-pendataan",
+                "icon": "fal fa-address-card",
+                "url": null,
+                "order": 3,
+                "childrens": [
+                    {
+                        "name": "Pendataan KRS",
+                        "module": "krs.pendataan.pendataan-krs",
+                        "slug": "pendataan-pendataan-krs",
+                        "icon": "fal fa-address-book",
+                        "url": "\/krs\/pendataan\/pendataan-krs",
+                        "order": 0,
+                        "childrens": []
+                    },
+                    {
+                        "name": "Rekapitulasi Pendataan Anak",
+                        "module": "krs.pendataan.rekapitulasi-pendataan-anak",
+                        "slug": "pendataan-rekapitulasi-pendataan-anak",
+                        "icon": "fal fa-child",
+                        "url": "\/krs\/pendataan\/rekapitulasi-data-anak",
+                        "order": 0,
+                        "childrens": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Monitoring",
+        "module": "monitoring",
+        "slug": "monitoring",
+        "icon": "fal fa-tv",
+        "url": null,
+        "order": 3,
+        "childrens": [
+            {
+                "name": "Ibu Hamil",
+                "module": "monitoring.ibu-hamil",
+                "slug": "monitoring-ibu-hamil",
+                "icon": "fal fa-female",
+                "url": "\/monitoring\/ibu-hamil",
+                "order": 0,
+                "childrens": []
+            },
+            {
+                "name": "Anak usia 0-5 tahun",
+                "module": "monitoring.balita",
+                "slug": "monitoring-balita",
+                "icon": "fal fa-child",
+                "url": "\/monitoring\/balita",
+                "order": 1,
+                "childrens": []
+            }
+        ]
+    },
+    {
+        "name": "Profil",
+        "module": "profil",
+        "slug": "profil",
+        "icon": "fal fa-pray",
+        "url": "\/profil",
+        "order": 4,
+        "childrens": []
+    },
+    {
+        "name": "CMS",
+        "module": "cms",
+        "slug": "cms",
+        "icon": "fal fa-newspaper",
+        "url": "",
+        "order": 5,
+        "childrens": [
+            {
+                "name": "Slide show",
+                "module": "cms.slide-show",
+                "slug": "cms-slide-show",
+                "icon": "fal fa-images",
+                "url": "\/cms\/slideshow",
+                "order": 0,
+                "childrens": []
+            },
+            {
+                "name": "File Manager",
+                "module": "cms.file-manager",
+                "slug": "cms-file-manager",
+                "icon": "fal fa-file",
+                "url": "\/cms\/file-manager",
+                "order": 1,
+                "childrens": []
+            },
+            {
+                "name": "Berita",
+                "module": "cms.news",
+                "slug": "cms-berita",
+                "icon": "fal fa-newspaper",
+                "url": "\/cms\/news",
+                "order": 2,
+                "childrens": []
+            },
+            {
+                "name": "Documents",
+                "module": "cms.documents",
+                "slug": "cms-document",
+                "icon": "fal fa-file-alt",
+                "url": "\/cms\/document",
+                "order": 3,
+                "childrens": []
+            },
+            {
+                "name": "Kategori Berita",
+                "module": "cms.kategori-berita",
+                "slug": "cms-kategori-berita",
+                "icon": "fal fa-calendar-alt",
+                "url": "\/cms\/kategori-berita",
+                "order": 4,
+                "childrens": []
+            },
+            {
+                "name": "FAQs",
+                "module": "cms.faqs",
+                "slug": "cms-faqs",
+                "icon": "fal fa-question-circle",
+                "url": "\/cms\/faqs",
+                "order": 5,
+                "childrens": []
+            }
+        ]
+    },
+    {
+        "name": "Settings",
+        "module": "setting",
+        "slug": "admin-setting",
+        "icon": "fal fa-cogs",
+        "url": null,
+        "order": 6,
+        "childrens": [
+            {
+                "name": "System Setting",
+                "module": "settings.system-setting",
+                "slug": "settings-system-setting",
+                "icon": "fal fa-cog",
+                "url": "\/setting\/system-setting",
+                "order": 0,
+                "childrens": []
+            },
+            {
+                "name": "Site Setting",
+                "module": "settings.site-setting",
+                "slug": "settings-site-setting",
+                "icon": "fal fa-user-cog",
+                "url": "\/setting\/site-settings",
+                "order": 1,
+                "childrens": []
+            },
+            {
+                "name": "Menu",
+                "module": "settings.menu",
+                "slug": "settings-menu",
+                "icon": "fal fa-list",
+                "url": "\/setting\/menu",
+                "order": 2,
+                "childrens": []
+            },
+            {
+                "name": "Backup Database",
+                "module": "settings.backup",
+                "slug": "settings-backup",
+                "icon": "fal fa-cloud-upload",
+                "url": "\/setting\/backup",
+                "order": 3,
+                "childrens": []
+            },
+            {
+                "name": "Menu Sorting",
+                "module": "settings.menu-sorting",
+                "slug": "settings-menu-sorting",
+                "icon": "fal fa-sort-amount-up",
+                "url": "\/setting\/menu-sorting",
+                "order": 4,
+                "childrens": []
+            }
+        ]
+    },
+    {
+        "name": "Users",
+        "module": "users",
+        "slug": "users",
+        "icon": "fal fa-users",
+        "url": null,
+        "order": 7,
+        "childrens": [
+            {
+                "name": "User List",
+                "module": "users.user-list",
+                "slug": "users-admin-user-list",
+                "icon": "fal fa-user",
+                "url": "\/users\/user-list",
+                "order": 0,
+                "childrens": []
+            },
+            {
+                "name": "Role",
+                "module": "users.role",
+                "slug": "users-role",
+                "icon": "fal fa-user-secret",
+                "url": "\/users\/role",
+                "order": 1,
+                "childrens": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "kode" : "1",
+        "status_hubungan" : "Kepala Keluarga",
+        "keterangan" : "Kepala Keluarga"
+    },
+    {
+        "kode" : "2",
+        "status_hubungan" : "Istri",
+        "keterangan" : "Istri"
+    },
+    {
+        "kode" : "3",
+        "status_hubungan" : "Anak",
+        "keterangan" : "Anak"
+    },
+    {
+        "kode" : "4",
+        "status_hubungan" : "Lainnya",
+        "keterangan" : "Lainnya"
+    }
+]
