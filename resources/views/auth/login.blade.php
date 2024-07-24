@@ -1,5 +1,5 @@
 @extends('layouts.auth')
-@section('title','Login')
+@section('title', 'Login')
 
 @section('content')
     <div class="py-9">
@@ -8,17 +8,19 @@
 
                 <div class="d-none d-lg-flex col-6 col justify-content-center position-relative">
                     <div class="login-bg w-100 h-100 position"></div>
-                    <div class="d-flex flex-column align-items-center position-absolute justify-content-center py-5 h-100 w-50">
-                        <h1 class=" d-block fs-2qx fw-bolder text-center mx-auto">Selamat Datang di {{siteSetting('site_name')}}</h1>
-                        <div class=" d-block fs-base text-center text-black">Pendaftaran untuk pengajuan dispensasi pernikahan dini</div>
+                    <div
+                        class="d-flex flex-column align-items-center position-absolute justify-content-center py-5 h-100 w-50">
+                        <h1 class=" d-block fs-2qx fw-bolder text-center mx-auto">Selamat Datang di
+                            {{ siteSetting('site_name') }}</h1>
+                        
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-4">
-                    <div class="card mb-0 login-card">
+                    <div class="card mb-0 login-card"> 
                         <div class="card-body">
-                            <div class="row justify-content-center">
+                            <div class="row justify-content-center"> 
                                 <div class="col-6 text-center">
-                                    <h3 class="fw-bolder">Login</h3>
+                                    <h3 class="fw-bolder">Login</h3>  
                                 </div>
                             </div>
                             <form method="POST" action="{{ URL::to('login') }}" custom-action>
@@ -81,10 +83,10 @@
                             <li class="nav-item ">
                                 <a class="btn fs-3 w-100 rounded py-2" href="/login">Login</a>
                             </li>
-                            <li class="nav-item ms-2">
+                            {{-- <li class="nav-item ms-2">
                                 <a class="btn btn-primary fs-3 w-100 rounded btn-hover-shadow py-2"
                                     href="#">Mendaftar</a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </li>

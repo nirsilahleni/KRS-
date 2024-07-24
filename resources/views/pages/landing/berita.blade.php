@@ -6,7 +6,7 @@
     <div class="background">
         <div class="shape"></div> 
         <div class="shape"></div>
-    </div>
+    </div> 
     <div class="container mt-3 p-3 article">
         <div class="row">
             <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12"> 
